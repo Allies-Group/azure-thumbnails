@@ -1,18 +1,18 @@
 {
-    "name": "gevman/azure-thumbnails",
-    "description": "Create image thumbnails with help of Microsoft Artificial Intelligence, and show what needed! After uploading an image, a high quality thumbnail gets generated and the Computer Vision API algorithm analyzes the objects within the image, then crops it to fit the requirements of the “region of interest” (ROI).",
+    "name": "allies-group/azure-thumbnails",
+    "description": "Create image thumbnails with help of Microsoft Artificial Intelligence, and show what needed! After uploading an image, a high quality thumbnail gets generated and the Computer Vision API algorithm analyzes the objects within the image, then crops it to fit the requirements of the “region of interest” (ROI). This is a fork of gevorgmansuryan/azure-thumbnails.",
     "keywords": ["azure", "thumbnails", "artificial-intelligence", "image-cropper", "image-resizer"],
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": ">=5.5",
-        "guzzlehttp/guzzle": "^6.2"
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "authors": [
         {
             "name": "Gevorg Mansuryan",
             "email": "gevorgmansuryan@gmail.com"
-        }
+        },
     ],
     "autoload": {
         "psr-4": {
